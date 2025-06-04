@@ -2,7 +2,7 @@
 
 # Sway
 
-Originally made in i3, Reconfigured for sway.
+Originally made for i3, Reconfigured for sway.
 
 It's mainly made for focusing.
 
