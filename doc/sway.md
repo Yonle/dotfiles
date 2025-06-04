@@ -20,6 +20,8 @@ By default, It loads a wallpaper that's in `~/.wallpaperimg`.
 - `bash`
 - `foot` terminal
 - `rofi` for app list
+- `swayidle`
+- `swaylock`
 
 ## Keybinds
 
