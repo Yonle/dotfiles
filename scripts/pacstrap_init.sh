@@ -4,9 +4,9 @@ pacstrap -K /mnt \
   base linux-lts linux-firmware intel-ucode limine \
   busybox doas nano helix man-pages \
   iwd networkmanager ly \
-  grim slurp brightnessctl libpulse \
+  grim slurp brightnessctl libpulse xorg-xwayland wl-clipboard mailcap \
   thunar tumbler ffmpegthumbnailer \
-  foot rofi i3status sway swaybg swayidle swaylock mako xorg-xwayland \
+  foot rofi i3status sway swaybg swayidle swaylock mako \
   pipewire pipewire-alsa pipewire-pulse pipewire-audio \
   xdg-desktop-portal xdg-desktop-portal-wlr wayvnc tailscale \
   mpv ffmpeg sox vlc ristretto imv zathura zathura-pdf-poppler \
