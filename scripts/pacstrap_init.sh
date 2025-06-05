@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+pacstrap -K /mnt \
+  base linux-lts linux-firmware intel-ucode limine \
+  busybox doas nano helix man-pages \
+  iwd networkmanager ly \
+  grim slurp brightnessctl libpulse \
+  thunar tumbler ffmpegthumbnailer \
+  foot rofi i3status sway swaybg swayidle swaylock mako xorg-xwayland \
+  pipewire pipewire-alsa pipewire-pulse pipewire-audio \
+  xdg-desktop-portal xdg-desktop-portal-wlr wayvnc tailscale \
+  mpv ffmpeg sox vlc \
+  htop go git openssh rsync \
+  ttf-{dejavu,jetbrains-mono} wqy-{bitmapfont,microhei,zenhei} noto-fonts-emoji
