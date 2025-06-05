@@ -24,6 +24,8 @@ By default, It loads a wallpaper that's in `~/.wallpaperimg`.
 - `swaybg` for wallpaper
 - `swayidle`
 - `swaylock`
+- `ttf-dejavu` for main font
+- `ttf-jetbrains-mono` for terminal font
 
 ## Keybinds
 
