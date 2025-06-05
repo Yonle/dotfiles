@@ -9,6 +9,6 @@ pacstrap -K /mnt \
   foot rofi i3status sway swaybg swayidle swaylock mako xorg-xwayland \
   pipewire pipewire-alsa pipewire-pulse pipewire-audio \
   xdg-desktop-portal xdg-desktop-portal-wlr wayvnc tailscale \
-  mpv ffmpeg sox vlc \
+  mpv ffmpeg sox vlc ristretto imv zathura zathura-pdf-poppler \
   htop go git openssh rsync \
   ttf-{dejavu,jetbrains-mono} wqy-{bitmapfont,microhei,zenhei} noto-fonts-emoji
