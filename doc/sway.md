@@ -1,4 +1,5 @@
 ![Screenshot of sway that i have](sway_screenshot.png)
+![Screenshot of me multitasking with sway](sway_screenshot_multitasking.png)
 
 # Sway
 
