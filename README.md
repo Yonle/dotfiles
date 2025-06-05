@@ -7,3 +7,4 @@ You could use it however you want.
 
 - [info about my system setup](doc/system.md)
 - [info about my sway setup](doc/sway.md)
+- [frequently asked questions](doc/faq.md)
