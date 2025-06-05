@@ -189,4 +189,4 @@ bindsym $mod+r mode "resize"
     bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 
 include /etc/sway/config.d/*
-include /home/yonle/.config/sway/config.d/*
+include ~/.config/sway/config.d/*
