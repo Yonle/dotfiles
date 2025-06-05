@@ -3,7 +3,7 @@
 pacstrap -K /mnt \
   base linux-lts linux-firmware intel-ucode limine chrony \
   busybox doas nano helix man-pages \
-  iwd networkmanager ly \
+  iwd networkmanager ly reflector \
   grim slurp brightnessctl libpulse xorg-xwayland wl-clipboard mailcap \
   thunar tumbler ffmpegthumbnailer \
   foot rofi i3status sway swaybg swayidle swaylock mako \
