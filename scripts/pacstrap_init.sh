@@ -5,7 +5,7 @@ pacstrap -K /mnt \
   busybox doas nano helix mandoc \
   iwd networkmanager ly reflector \
   grim slurp brightnessctl libpulse xorg-xwayland wl-clipboard mailcap \
-  gvfs thunar tumbler ffmpegthumbnailer \
+  polkit gvfs udisks2 thunar thunar-volman tumbler ffmpegthumbnailer \
   foot rofi i3status sway swaybg swayidle swaylock mako \
   pipewire pipewire-alsa pipewire-pulse pipewire-audio \
   xdg-desktop-portal xdg-desktop-portal-wlr wayvnc wf-recorder \
