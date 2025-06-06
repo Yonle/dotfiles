@@ -4,8 +4,8 @@ My system setup is a fairly simple DIY setup, with the following:
 
 - Linux LTS kernel as the main kernel for stability
 - Limine as the bootloader
-- Busybox being used for filling the missing common UNIX utilities (To put it simply, Yes. I `doas busybox --install`, Completely eliminating the need of `pacman -S which patch less` and etc).
-- Due to busybox being used, Simply installing `base-devel` meta package won't work due to conflict with `which` and `patch`. So, A custom `base-devel` installer was made with the difference on using `clang` instead of `gcc` (see: `scripts/base_devel_install.sh`).
+- Busybox being used for filling the missing common UNIX utilities (`doas busybox --install /usr/local/bin`).
+- I have a custom `base-devel` which uses `clang` instead of `gcc`. See [`scripts/base_devel_install.sh`](../scripts/base_devel_install.sh).
 - `doas` is being used instead of `sudo` for simplicity.
 - We're using `ly` display manager because we need speed when login into desktop. The main WM in preference is `sway` (see: [info about my sway setup](sway.md)).
 
