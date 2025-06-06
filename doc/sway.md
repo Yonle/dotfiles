@@ -26,6 +26,7 @@ By default, It loads a wallpaper that's in `~/.wallpaperimg`.
 - `swaylock`
 - `ttf-dejavu` for main font
 - `ttf-jetbrains-mono` for terminal font
+- `dex` for autostarting apps / daemon / agent
 
 ## Keybinds
 
