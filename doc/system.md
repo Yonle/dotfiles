@@ -32,4 +32,4 @@ Now that the set of rules is finished, Here's some software that i use:
 - [Thunar](https://docs.xfce.org/apps/thunar/start) for managing files,
 - [Ristretto](https://docs.xfce.org/apps/ristretto/start) for viewing images
 
-And that's pretty much it. You may also want to check my [info about my sway setup](sway.md).
+And that's pretty much it. You may also want to check my [info about my sway setup](sway.md) and see my [`pacstrap_init.sh`](../scripts/pacstrap_init.sh) script.
