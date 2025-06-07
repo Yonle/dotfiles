@@ -23,7 +23,7 @@ By default, It loads a wallpaper that's in `~/.wallpaperimg`.
 - `rofi` for app list
 - `swaybg` for wallpaper
 - `swayidle`
-- `swaylock`
+- [`swaylock-effects`](https://github.com/mortie/swaylock-effects)
 - `mako` for notification
 - `mate-polkit` for polkit agent
 - `ttf-dejavu` for main font
