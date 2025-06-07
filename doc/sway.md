@@ -60,3 +60,4 @@ The `$mod` key is Windows (`Mod4`) key.
 
 **Miscellaneous**:
 - `$mod+Home`: Launch thunar file manager
+- `$mod+Pause`: Immediately lock screen
