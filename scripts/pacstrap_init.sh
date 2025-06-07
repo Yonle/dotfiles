@@ -2,7 +2,7 @@
 
 pacstrap -K /mnt \
   base linux-lts linux-firmware intel-ucode limine chrony \
-  busybox doas nano helix mandoc \
+  busybox tmux doas nano helix mandoc \
   iwd networkmanager ly reflector \
   grim slurp brightnessctl libpulse xorg-xwayland wl-clipboard mailcap \
   gvfs udisks2 thunar thunar-volman tumbler ffmpegthumbnailer \
