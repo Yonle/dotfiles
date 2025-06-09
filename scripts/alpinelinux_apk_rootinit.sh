@@ -6,9 +6,8 @@ cp -vr /etc/apk/{repositories,keys} /mnt/etc/apk/
 
 apk --root /mnt add \
   alpine-base linux-lts linux-firmware openrc intel-ucode limine chrony \
-  e2fsprogs dosfstools dhcpcd \
-  tmux doas nano helix mandoc \
-  iwd networkmanager ly \
+  e2fsprogs dosfstools tmux doas nano helix mandoc \
+  iwd networkmanager dhcpcd seatd \
   grim slurp brightnessctl libpulse xwayland wl-clipboard mailcap \
   gvfs udisks2 thunar thunar-volman tumbler ffmpegthumbnailer \
   thunar-archive-plugin engrampa p7zip \
