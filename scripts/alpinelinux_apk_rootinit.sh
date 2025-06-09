@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
-apk --root /mnt --initdb add 
+apk --root /mnt --initdb add
 
 cp -vr /etc/apk/{repositories,keys} /mnt/etc/apk/
 
 apk --root /mnt add \
   alpine-base linux-lts linux-firmware openrc intel-ucode limine chrony \
+  e2fsprogs dosfstools dhcpcd \
   tmux doas nano helix mandoc \
   iwd networkmanager ly \
   grim slurp brightnessctl libpulse xwayland wl-clipboard mailcap \
