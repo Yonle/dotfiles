@@ -13,7 +13,7 @@
 **A:** I am bored.
 
 ### Q: _Won't some program break under busybox?_
-**A:** Maybe. But which one? [I don't run bloat](../scripts/pacstrap_init.sh). You haven’t even survived *BSD yet. Also, It's only installed at `/usr/local/bin`, So if something doesn't works under busybox, Then you could fix it by `pacman -S` the conflicting one.
+**A:** Maybe. But which one? [I don't run bloat](../scripts/archlinux-pacstrap_init.sh). You haven’t even survived *BSD yet. Also, It's only installed at `/usr/local/bin`, So if something doesn't works under busybox, Then you could fix it by `pacman -S` the conflicting one.
 
 ### Q: _Why Limine instead of GRUB?_
 **A:** GRUB got too comfortable being the default. Needed to shake it up.

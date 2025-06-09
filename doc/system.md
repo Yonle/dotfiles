@@ -5,7 +5,7 @@ My system setup is a fairly simple DIY setup, with the following:
 - Linux LTS kernel as the main kernel for stability
 - Limine as the bootloader
 - Busybox being used for filling the missing common UNIX utilities (`doas busybox --install /usr/local/bin`).
-- I have a custom `base-devel` which uses `clang` instead of `gcc`. See [`scripts/base_devel_install.sh`](../scripts/base_devel_install.sh).
+- I have a custom `base-devel` which uses `clang` instead of `gcc`. See [`scripts/archlinux-base_devel_install.sh`](../scripts/archlinux-base_devel_install.sh).
 - `doas` is being used instead of `sudo` for simplicity.
 - We're using `ly` display manager because we need speed when login into desktop. The main WM in preference is `sway` (see: [info about my sway setup](sway.md)).
 
@@ -32,4 +32,4 @@ Now that the set of rules is finished, Here's some software that i use:
 - [Thunar](https://docs.xfce.org/apps/thunar/start) for managing files,
 - [Ristretto](https://docs.xfce.org/apps/ristretto/start) for viewing images
 
-And that's pretty much it. You may also want to check my [info about my sway setup](sway.md) and see my [`pacstrap_init.sh`](../scripts/pacstrap_init.sh) script.
+And that's pretty much it. You may also want to check my [info about my sway setup](sway.md) and see my [`archlinux-pacstrap_init.sh`](../scripts/archlinux-pacstrap_init.sh) script.
