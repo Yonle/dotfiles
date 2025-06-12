@@ -18,7 +18,7 @@ By default, It loads a wallpaper that's in `~/.wallpaperimg`.
 - `grim` (with additional deps for getting screen region area: `slurp`)
 - `brightnessctl`
 - `libpulse` (for `pactl` to control audio)
-- `bash`
+- `bash` for scripts
 - `foot` terminal
 - `rofi` for app list
 - `swaybg` for wallpaper
