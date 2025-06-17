@@ -4,6 +4,7 @@ FILE="$HOME/Pictures/Screenshots/screenshot-$(date +%F_%H-%M-%S).png"
 
 if [ "$1" == "region" ]; then
   grim -g "$(slurp)" "$FILE"
+  [ "$?" == "1" ] && exit 1 # cancelled. so just exit.
 else
   grim "$FILE"
 fi
