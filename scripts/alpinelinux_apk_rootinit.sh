@@ -15,7 +15,7 @@ apk --root /mnt add \
   foot rofi i3status sway swaybg swayidle mako \
   pipewire pipewire-alsa pipewire-pulse \
   xdg-desktop-portal xdg-desktop-portal-wlr wayvnc wf-recorder \
-  mesa-utils wayland-utils wev \
+  mesa mesa-gbm mesa-utils wayland-utils wev \
   mpv ffmpeg sox vlc ristretto imv zathura zathura-pdf-poppler \
   htop go git openssh rsync tailscale \
   font-{dejavu,jetbrains-mono} font-wqy-zenhei font-noto-emoji
