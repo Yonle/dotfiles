@@ -2,7 +2,7 @@
 
 My system setup is a fairly simple DIY setup, with the following:
 
-- Linux LTS kernel as the main kernel for stability
+- Linux Zen kernel for no particular reason
 - Limine as the bootloader
 - Busybox being used for filling the missing common UNIX utilities (`doas busybox --install /usr/local/bin`).
 - I have a custom `base-devel` which uses `clang` instead of `gcc`. See [`scripts/archlinux-base_devel_install.sh`](../scripts/archlinux-base_devel_install.sh).
