@@ -23,7 +23,7 @@ I have my own set of rules when picking a software
 
 Now that the set of rules is finished, Here's some software that i use:
 
-- [Brave Browser](https://brave.com) for browsing,
+- [Firefox Browser](https://firefox.com) for browsing,
 - [Helix Editor](https://helix-editor.com) for code editing,
 - [Senpai](https://git.sr.ht/~delthas/senpai) for IRC communications,
 - [mpv player](https://mpv.io) for multiplayer,

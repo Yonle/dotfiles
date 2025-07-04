@@ -12,6 +12,6 @@ pacstrap -K /mnt \
   pipewire pipewire-alsa pipewire-pulse pipewire-audio \
   xdg-desktop-portal xdg-desktop-portal-wlr wayvnc wf-recorder \
   mesa egl-gbm mesa-utils wayland-utils wev \
-  mpv ffmpeg sox vlc ristretto imv zathura zathura-pdf-poppler \
+  mpv ffmpeg sox vlc ristretto imv zathura zathura-pdf-poppler firefox \
   htop go git openssh rsync tailscale \
   ttf-{dejavu,jetbrains-mono} wqy-{bitmapfont,microhei,zenhei} noto-fonts-emoji
