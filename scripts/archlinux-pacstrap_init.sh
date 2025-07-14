@@ -14,4 +14,4 @@ pacstrap -K /mnt \
   mesa egl-gbm mesa-utils wayland-utils wev \
   mpv ffmpeg sox vlc ristretto imv zathura zathura-pdf-poppler firefox \
   htop go git openssh rsync tailscale \
-  ttf-{dejavu,jetbrains-mono} wqy-{bitmapfont,microhei,zenhei} noto-fonts-emoji
+  ttf-{dejavu,liberation,opensans,jetbrains-mono} wqy-{bitmapfont,microhei,zenhei} noto-fonts-emoji
