@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 pacstrap -K /mnt \
-  base linux-zen linux-firmware-{atheros,intel} intel-ucode limine chrony \
+  base linux-rt linux-rt-headers linux-firmware-intel sof-firmware intel-ucode chrony \
   busybox tmux doas nano helix mandoc \
   iwd networkmanager ly reflector \
   grim slurp brightnessctl libpulse xorg-xwayland wl-clipboard mailcap \
