@@ -7,7 +7,7 @@ pacstrap -K /mnt \
   grim slurp brightnessctl libpulse xorg-xwayland wl-clipboard mailcap \
   gvfs udisks2 thunar thunar-volman tumbler ffmpegthumbnailer \
   thunar-archive-plugin engrampa p7zip unarchiver \
-  dex polkit mate-polkit \
+  dex polkit mate-polkit zenity \
   foot rofi i3status sway swaybg swayidle mako \
   pipewire pipewire-alsa pipewire-pulse pipewire-audio \
   xdg-desktop-portal xdg-desktop-portal-wlr wayvnc wf-recorder \
