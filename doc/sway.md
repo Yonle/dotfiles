@@ -9,7 +9,7 @@ It's mainly made for focusing.
 
 ## Wallpaper
 
-By default, It loads a wallpaper that's in `~/.wallpaperimg`. The source for the wallpaper is from [here](https://x.com/Stuffing_Scone/status/1817847730020188281)
+By default, It loads a wallpaper that's in `~/.wallpaperimg`. The source for the wallpaper is from [here](https://misskey.io/notes/aoicoyckg09p07xb)
 
 ## Dependencies
 
