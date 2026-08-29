@@ -1,8 +1,10 @@
 .:53 {
-    forward . https://9.9.9.9 {
-        tls_servername dns.quad9.net
+    errors
+    cache 300
+
+    forward . tls://1.1.1.1 tls://1.0.0.1 {
+        tls_servername cloudflare-dns.com
     }
 
-    cache 256
-    errors
+    reload
 }
