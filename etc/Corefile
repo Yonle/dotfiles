@@ -1,5 +1,5 @@
 .:53 {
-    forward . https://9.9.9.9/dns-query {
+    forward . https://9.9.9.9 {
         tls_servername dns.quad9.net
     }
 
