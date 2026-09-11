@@ -20,11 +20,11 @@ By default, It loads a wallpaper that's in `~/.wallpaperimg`. The source for the
 - `libpulse` (for `pactl` to control audio)
 - `bash` for scripts
 - `foot` terminal
-- `rofi` for app list
+- `nwg-drawer` for app list (formerly using `rofi` for app list)
 - `swaybg` for wallpaper
 - `swayidle`
 - [`swaylock-effects`](https://github.com/mortie/swaylock-effects)
-- `mako` for notification
+- ~~`mako` for notification~~
 - `mate-polkit` for polkit agent
 - `ttf-dejavu` for main font
 - `ttf-jetbrains-mono` for terminal font
