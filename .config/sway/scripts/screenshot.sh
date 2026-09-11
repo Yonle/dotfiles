@@ -1,6 +1,9 @@
 #!/bin/bash
 
-FILE="$HOME/Pictures/Screenshots/screenshot-$(date +%F_%H-%M-%S).png"
+SDIR="$HOME/Pictures/Screenshots"
+mkdir -p "$SDIR"
+
+FILE="$SDIR/screenshot-$(date +%F_%H-%M-%S).png"
 
 if [ "$1" == "region" ]; then
   grim -g "$(slurp)" "$FILE"
